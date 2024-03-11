@@ -4,9 +4,7 @@ body {
   text-align: center;
 
 }
-header {
-text-align: center;
-}
+
 #featured-property {
   text-align: center;
 }
@@ -25,9 +23,8 @@ p {
   padding-left: 25%;
 }
 
-.divs {
-  display: inline-block;
-
+#divs {
+  width: 100%;
 }
 
 .div1, .div2, .div3, .div4 {
@@ -35,24 +32,20 @@ p {
   display: inline-flexbox;
   flex-direction: row;
   align-items: center;
+  width: 24%;
+  
   
 }
 
 
 #details {
   background-color: red;
-  display: flexbox;
-  
+  display: flex;
+  width: 100%;
   
 }
 
 #ditails {
   background-color: #fc0707;
-  /*position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #fc0707;*/
+  
 }
